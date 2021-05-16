@@ -1,7 +1,7 @@
 ---
 title: "Finding Things"
-teaching: 25
-exercises: 20
+teaching: 20
+exercises: 10
 questions:
 - "How can I find files?"
 - "How can I find things in files?"
@@ -663,9 +663,9 @@ environments ever created --- maybe even *the* most productive. Its syntax
 may be cryptic, but people who have mastered it can experiment with
 different commands interactively, then use what they have learned to
 automate their work. Graphical user interfaces may be easier to use at
-first, but once learned, the productivity in the shell is unbeatable. 
+first, but once learned, the productivity in the shell is unbeatable.
 And as Alfred North Whitehead wrote in 1911, 'Civilization advances by
-extending the number of important operations which we can perform 
+extending the number of important operations which we can perform
 without thinking about them.'
 
 > ## `find` Pipeline Reading Comprehension

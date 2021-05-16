@@ -1,6 +1,6 @@
 ---
 title: "Navigating Files and Directories"
-teaching: 30
+teaching: 25
 exercises: 10
 questions:
 - "How can I move around on my computer?"
@@ -67,11 +67,11 @@ which is Nelle's **home directory**:
 > In future examples, we've used Mac output as the default - Linux and Windows
 > output may differ slightly but should be generally similar.
 {: .callout}
->  
-> We will also assume that your `pwd` command returns your users home directory. 
-> If `pwd` returns something different you may need to navigate there using `cd` 
-> or some commands in this lesson will not work as written. 
-> See [Exploring Other Directories](#exploring-other-directories) for more details 
+>
+> We will also assume that your `pwd` command returns your users home directory.
+> If `pwd` returns something different you may need to navigate there using `cd`
+> or some commands in this lesson will not work as written.
+> See [Exploring Other Directories](#exploring-other-directories) for more details
 > on the `cd` command.
 
 To understand what a 'home directory' is,
@@ -116,8 +116,8 @@ Underneath `/Users`,
 we find one directory for each user with an account on Nelle's machine,
 her colleagues *imhotep* and *larry*.
 
-![Like other directories, home directories are sub-directories underneath 
-"/Users" like "/Users/imhotep", "/Users/larry" or 
+![Like other directories, home directories are sub-directories underneath
+"/Users" like "/Users/imhotep", "/Users/larry" or
 "/Users/nelle"](../fig/home-directories.svg)
 
 The user *imhotep*'s files are stored in `/Users/imhotep`,
@@ -397,7 +397,7 @@ data-shell/
 {: .output}
 
 Note that if a directory named `Desktop` does not exist in your current working directory
-this command will return an error. Typically a `Desktop` directory exists in your 
+this command will return an error. Typically a `Desktop` directory exists in your
 home directory, which we assume is the current working directory of your bash shell.
 
 Your output should be a list of all the files and sub-directories in your
@@ -440,7 +440,7 @@ directory name to change our working directory.
 `cd` stands for 'change directory',
 which is a bit misleading:
 the command doesn't change the directory,
-it changes the shell's idea of what directory we are in. 
+it changes the shell's idea of what directory we are in.
 The `cd` command is akin to double clicking a folder in a graphical interface to get into a folder.
 
 Let's say we want to move to the `data` directory we saw above.  We can
@@ -735,8 +735,8 @@ directories "backup" and "thing"; "/Users/backup" contains "original",
 >
 > ![A directory tree below the Users directory where "/Users" contians the
 directories "backup" and "thing"; "/Users/backup" contains "original",
-"pnas_final" and "pnas_sub"; "/Users/thing" contains "backup"; and 
-"/Users/thing/backup" contians "2012-12-01", "2013-01-08" and 
+"pnas_final" and "pnas_sub"; "/Users/thing" contains "backup"; and
+"/Users/thing/backup" contians "2012-12-01", "2013-01-08" and
 "2013-01-27"](../fig/filesystem-challenge.svg)
 >
 > 1.  `ls pwd`
